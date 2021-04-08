@@ -3,7 +3,7 @@ Public Class SLASH_Key_Schedule
     Public SBOX(roundno - 1, 255) As Byte
     Public PBOX(roundno - 1, 15) As Byte
     Public R_KEY(roundno - 1, 15) As Byte
-    Public M_KEY(32) As Byte
+    Public M_KEY(31) As Byte
 
 
 
