@@ -11,7 +11,3 @@ of this is to make it difficult for an attacker to derive the main key or any ot
 This SPN uses a ARX based mix function for diffusion(as shown in "SLASH 32 bit mix function.bmp", derived from Salsa20). This mix function has an input and output of 4 bytes,
 on its own this function provides very little security, so the pboxes,sboxes and round keys are needed to make this secure. Each individual step within each round can be
 considered cryptographically weak, combined together and they are strong.
-
-################################################################
-To be added to
-###############################################################
