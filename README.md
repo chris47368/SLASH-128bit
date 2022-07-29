@@ -4,7 +4,7 @@ A 128 bit substitution permutation network block cipher
 
 SLASH is a 10 round substitution-permutation network with a 128 bit block size and a 256 bit internal key.
 
-The current operating mode of this cipher is Cipher Block Chaining(CBC) - Though I intend to add more modes of operation in the upcoming future. 
+The current operating mode of this cipher is Cipher Block Chaining mode (CBC) - Though I intend to add more modes of operation in the upcoming future. 
 
 Round structure is as shown in 'SLASH 128 bit round function.bmp' file. Each round conponment is unique for each round and key derived using a custom sponge construction hash
 of the main key that has a slightly different string XOR'ed to it eg("SBOX_KEY" for sbox generation,"PBOX_KEY" for pbox generation,"ROUND_KEY" for round key generation).The aim
